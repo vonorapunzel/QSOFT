@@ -1,0 +1,15 @@
+.cards {
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 375px) {
+  .cards {
+    flex-direction: column;
+  }
+}

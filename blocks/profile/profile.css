@@ -1,0 +1,19 @@
+.profile {
+  display: flex;
+  align-items: center;
+  border-left: 2px solid #EBEBF1;
+  height: 80px;
+  cursor: url('../../img/cursor.png'), pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .profile {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    border: 0;
+  }
+}

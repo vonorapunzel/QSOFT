@@ -1,0 +1,18 @@
+.partners__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #121920;
+  max-width: 1170px;
+  max-height: 58px;
+  margin: 70px auto 30px auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .partners__title {
+    font-size: 28px;
+    margin-left: 20px;
+    margin-right: 20px; 
+  }
+}

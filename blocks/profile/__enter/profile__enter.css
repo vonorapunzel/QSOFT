@@ -1,0 +1,17 @@
+.profile__enter {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .profile__enter {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-image: url('../../../img/logIn.png');
+    background-color: #FFF;
+    cursor: pointer;
+    cursor: url('../../../img/cursor.png'), pointer;
+  }
+  
+}

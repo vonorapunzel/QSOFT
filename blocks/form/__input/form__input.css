@@ -1,0 +1,18 @@
+.form__input {
+  align-items: center;
+  width: 100%;
+  border: none;
+  padding: 0;
+}
+
+.form__input:focus {
+  outline: none;
+}
+
+.form__input::-webkit-input-placeholder {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: .01em;
+  color: #BBC4D6;
+}

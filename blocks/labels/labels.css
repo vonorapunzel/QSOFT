@@ -1,0 +1,10 @@
+.labels {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .labels {
+    margin-left: 20px;
+    margin-right: 20px;;
+  }
+}
